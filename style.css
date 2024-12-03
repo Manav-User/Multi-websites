@@ -1,0 +1,48 @@
+.container{
+    background-color: black;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 10px solid black;
+}
+.web{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    height: 300px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    padding: 10px;
+    border-radius: 5%;
+    transition: transform 0.2s ease, filter 0.2s ease;
+    text-decoration: none;
+}
+.w2,.w3{
+    font-size: 70px;
+}
+.w4,.w5,.w8,.w9,.w10,.w11{
+    font-size: 50px;
+}
+.w1,.w6,.w7,.w12{
+    font-size: 40.5px;
+}
+.web:hover a{
+    transform: scale(1.03);
+    filter: brightness(70px);
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: hotpink;
+}
+a:active{
+    color: blue;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>extra</title>
+  <style>
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container{
+      height: 250px;
+      width: 400px;
+      display: grid;
+      background-color: #000;
+      gap: 10px;
+      grid-template-columns: 100px 260px 20px;
+      grid-template-rows: 140px 45px 45px;
+    }
+    .skin1{
+        background-color: #fff4db;
+    }
+    .red{
+        background-color: red;
+        grid-column: span 2;
+    }
+    .blue{
+        background-color: blue;
+        grid-row: span 2;
+    }
+    .skin2{
+        background-color: #fff4db;
+        grid-area: 2/2/4/3;
+    }
+    .skin3{
+        background-color: #fff4db;
+    }
+    .yellow{
+        background-color: yellow;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="skin1"></div>
+    <div class="red"></div>
+    <div class="blue"></div>
+    <div class="skin2"></div>
+    <div class="skin3"></div>
+    <div class="yellow"></div>
+    <div>
+      <button><a href="./Mondrian_Project.html">another</a></button>
+    </div>
+  </div>
+</body>
+
+</html>
